@@ -18,10 +18,10 @@ int main(void)
 		b++;
 	}
 	while (a <= 'f')
-        {
-                putchar(a);
-                a++;
-        }
+	{
+		putchar(a);
+		a++;
+	}
 	putchar('\n');
 	return (0);
 }
