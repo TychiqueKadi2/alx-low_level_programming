@@ -10,7 +10,7 @@ int main(void)
 	while (a <= 99)
 	{
 		int b = a + 1;
-		while (j <= 99)
+		while (b <= 99)
 		{
 			putchar(a / 10 + '0');
 			putchar(a % 10 + '0');
