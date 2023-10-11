@@ -18,9 +18,9 @@ int main(void)
 		{
 			sum = sum + b;
 		}
-		next = a + b;
-		a = b;
-		b = next;
+		next = a + c;
+		a = c;
+		c = next;
 	}
 
 	printf("%lu\n", sum);

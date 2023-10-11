@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints first 98 fibonacci
- * Rwturn: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
