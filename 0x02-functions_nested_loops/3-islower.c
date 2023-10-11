@@ -2,7 +2,6 @@
 /**
  * _islower - check if alphabet is lowercase
  * @c: aphabet to be checked
- *
  * Return: 1 (lowercase yes)
  */
 
