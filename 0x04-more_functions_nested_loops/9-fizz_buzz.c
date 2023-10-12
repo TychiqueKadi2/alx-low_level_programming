@@ -25,7 +25,11 @@ int main(void)
 		{
 			printf("%d", a);
 		}
+		if (a == 100)
+			continue;
+		printf(" ");
 	}
+
 	printf("\n");
 	return (0);
 }
