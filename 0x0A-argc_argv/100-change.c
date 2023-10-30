@@ -22,16 +22,16 @@ int main(int argc, char **argv)
 		if (change >= 25)
 			change -= 25;
 
-		if (change >= 10)
+		else if (change >= 10)
 			change -= 10;
 
-		if (change >= 5)
+		else if (change >= 5)
 			change -= 5;
 
-		if (change >= 2)
+		else if (change >= 2)
 			change -= 2;
 
-		if (change >= 1)
+		else if (change >= 1)
 			change -= 1;
 		coins += 1;
 	}
