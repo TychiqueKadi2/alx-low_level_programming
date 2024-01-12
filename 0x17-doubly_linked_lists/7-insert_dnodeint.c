@@ -31,7 +31,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 					new_node = add_dnodeint_end(h, n);
 				else
 				{
-					new = malloc(sizeof(dlistint_t));
+					new_node = malloc(sizeof(dlistint_t));
 					if (new_node != NULL)
 					{
 						new_node->n = n;
